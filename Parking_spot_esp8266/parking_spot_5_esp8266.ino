@@ -2,15 +2,15 @@
 #include <PubSubClient.h>
 #include <Adafruit_NeoPixel.h>
 
-// ====== USER CONFIG ======
-#define WIFI_SSID     "OPPO_RENO_8"
-#define WIFI_PASS     "STV@9996"
+// Wifi
+#define WIFI_SSID     "wifi"
+#define WIFI_PASS     "password"
 
-// Spot ID (unique per device)
+// Spot ID 
 #define SPOT_ID 5   
 
-// MQTT broker (central computer IP)
-#define MQTT_HOST     "10.217.88.250"
+// MQTT broker
+#define MQTT_HOST     "ip add"
 #define MQTT_PORT     1883
 
 // Pins (ESP8266 GPIO numbers, not Dx labels!)
