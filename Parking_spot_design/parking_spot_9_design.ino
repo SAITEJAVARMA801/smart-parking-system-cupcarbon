@@ -1,12 +1,12 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-// ====== USER CONFIG ======
-#define WIFI_SSID     "OPPO_RENO_8"
-#define WIFI_PASS     "STV@9996"
+// wifi
+#define WIFI_SSID     "wifi"
+#define WIFI_PASS     "password"
 #define SPOT_ID       4
 
-#define MQTT_HOST     "10.173.206.250"
+#define MQTT_HOST     "ip add"
 #define MQTT_PORT     1883
 
 // ====== PINS ======
