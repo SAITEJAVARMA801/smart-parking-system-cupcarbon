@@ -2,14 +2,14 @@
 #include <PubSubClient.h>
 #include <Adafruit_NeoPixel.h>
 
-// ====== USER CONFIG ======
+//WIFI Details
 #define WIFI_SSID     "YOUR WIFI"
 #define WIFI_PASS     "PASSWORD"
 
 //  spot ID
 #define SPOT_ID 2
 
-// MQTT broker (central computer IP)
+// MQTT broker
 #define MQTT_HOST     "COMPUTER IP"
 #define MQTT_PORT     1883
 
