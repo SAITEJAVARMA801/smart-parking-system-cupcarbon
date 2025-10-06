@@ -1,12 +1,12 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-// ====== USER CONFIG ======
-#define WIFI_SSID     "OPPO_RENO_8"
-#define WIFI_PASS     "STV@9996"
+// WIFI
+#define WIFI_SSID     "WIFI"
+#define WIFI_PASS     "PASSWORD"
 #define SPOT_ID       2
 
-#define MQTT_HOST     "10.173.206.250"
+#define MQTT_HOST     "IP Add"
 #define MQTT_PORT     1883
 
 // ====== PINS ======
@@ -19,7 +19,7 @@
 #define GREEN_PIN  2
 #define BLUE_PIN   4
 
-#define DIST_THRESHOLD_CM 15   // Spot occupied if distance < 10 cm
+#define DIST_THRESHOLD_CM 15   
 
 WiFiClient espClient;
 PubSubClient mqtt(espClient);
