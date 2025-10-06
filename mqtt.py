@@ -1,7 +1,7 @@
 import json, time, threading, sys
 from paho.mqtt import client as mqtt
 
-BROKER = "10.173.206.250"
+BROKER = "IP add"
 TOPIC  = "parking/spot/#"
 
 state = {}      # spot_id -> dict
