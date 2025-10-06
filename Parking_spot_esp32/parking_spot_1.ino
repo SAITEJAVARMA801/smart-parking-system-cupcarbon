@@ -2,7 +2,7 @@
 #include <PubSubClient.h>
 #include <Adafruit_NeoPixel.h>
 
-// ====== USER CONFIG ======
+// WIFI Details
 #define WIFI_SSID     "YOURWIFI"
 #define WIFI_PASS     "PASSWORD"
 
