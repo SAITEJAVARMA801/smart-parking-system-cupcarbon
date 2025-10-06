@@ -5,7 +5,7 @@ import time
 def cup(com):
     print(com, flush=True)
 
-BROKER = "10.173.206.250"
+BROKER = "ip add"
 TOPIC  = "parking/spot/3"  
 SPOT_ID = 3
 
